@@ -6,7 +6,7 @@ Un agente de aprendizaje por refuerzo decide cada hora qué fracción del capita
 
 **Pregunta:** ¿puede un agente DQN aprender una estrategia de inversión que se comporte mejor que estrategias simples en datos no vistos?
 
-**Respuesta corta:** en este experimento, no. El agente elegido en validación perdió 8,91 % en la prueba, con una caída máxima de 55,20 %. En el mismo periodo, comprar y mantener ganó 5,86 % y mantener siempre el 50 % ganó 12,11 %. El agente aleatorio perdió 98,8 %, casi todo en comisiones. El informe explica por qué pasó esto y qué se aprendió en el camino.
+**Respuesta corta:** en este experimento, no. El agente elegido en validación perdió 8,91 % en la prueba, con una caída máxima de 55,20 %. En el mismo periodo, comprar y mantener ganó 5,86 % y mantener siempre el 50 % ganó 12,11 %. El agente aleatorio perdió 98,8 %, casi todo en comisiones. El [informe](informe/Informe_Agente_Inversor_Grupo4.pdf) explica por qué pasó esto y qué se aprendió en el camino.
 
 ## Resultados en el periodo de prueba (9 ene 2021 – 1 mar 2022, 9.971 horas)
 
@@ -138,7 +138,7 @@ agente-inversor-btc/
 ├── notebooks/
 │   ├── eda.ipynb                  análisis exploratorio
 │   └── historico/primera_version.ipynb   primera versión del proyecto (registro)
-├── informe/                       informe del proyecto (Word)
+├── informe/                       informe del proyecto (PDF y Word)
 ├── pyproject.toml, uv.lock, requirements.txt
 └── README.md
 ```
