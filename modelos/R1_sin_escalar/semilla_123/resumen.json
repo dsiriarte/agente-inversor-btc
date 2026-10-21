@@ -1,0 +1,25 @@
+{
+  "experimento": "R1_sin_escalar",
+  "semilla": 123,
+  "pasos": 120000,
+  "segundos": 24.7,
+  "validacion": {
+    "estrategia": "DQN R1_sin_escalar (semilla 123)",
+    "capital_final": 28916.832937157084,
+    "retorno_pct": 189.16832937157082,
+    "max_drawdown_pct": -12.221432817642707,
+    "costos_usd": 80.9169788075305,
+    "costos_pct_capital_inicial": 0.809169788075305,
+    "cambios_exposicion": 4,
+    "rebalanceos": 3547,
+    "exposicion_media_pct": 58.10404127257094,
+    "horas_0_pct": 3.7403267411865864,
+    "horas_50_pct": 76.31126397248495,
+    "horas_100_pct": 19.948409286328463,
+    "recompensa_total": 1.0618387871364225,
+    "ajuste_retorno_pct": 17.70549823636052,
+    "ajuste_max_drawdown_pct": -51.320882882659916,
+    "ajuste_exposicion_media_pct": 83.08704997313272,
+    "ajuste_cambios_exposicion": 83
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "experimento": "R2",
+  "semilla": 789,
+  "pasos": 120000,
+  "segundos": 23.0,
+  "validacion": {
+    "estrategia": "DQN R2 (semilla 789)",
+    "capital_final": 10665.499533534328,
+    "retorno_pct": 6.654995335343283,
+    "max_drawdown_pct": -20.85180556103017,
+    "costos_usd": 4254.501105148614,
+    "costos_pct_capital_inicial": 42.54501105148614,
+    "cambios_exposicion": 540,
+    "rebalanceos": 24,
+    "exposicion_media_pct": 47.06577815993121,
+    "horas_0_pct": 51.461736887360274,
+    "horas_50_pct": 2.9449699054170253,
+    "horas_100_pct": 45.5932932072227,
+    "recompensa_total": 0.0350452611932454,
+    "ajuste_retorno_pct": -55.855781884137045,
+    "ajuste_max_drawdown_pct": -67.0135341288737,
+    "ajuste_exposicion_media_pct": 45.497044599677594,
+    "ajuste_cambios_exposicion": 2420
+  }
+}

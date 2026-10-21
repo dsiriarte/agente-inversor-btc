@@ -1,0 +1,25 @@
+{
+  "experimento": "R3_k005",
+  "semilla": 456,
+  "pasos": 120000,
+  "segundos": 30.1,
+  "validacion": {
+    "estrategia": "DQN R3_k005 (semilla 456)",
+    "capital_final": 14464.925699463833,
+    "retorno_pct": 44.64925699463833,
+    "max_drawdown_pct": -10.874998634097421,
+    "costos_usd": 866.2243394528031,
+    "costos_pct_capital_inicial": 8.662243394528032,
+    "cambios_exposicion": 137,
+    "rebalanceos": 314,
+    "exposicion_media_pct": 9.769991401547722,
+    "horas_0_pct": 86.19948409286329,
+    "horas_50_pct": 8.061049011177989,
+    "horas_100_pct": 5.739466895958727,
+    "recompensa_total": -0.028697564813762483,
+    "ajuste_retorno_pct": -31.538832446364353,
+    "ajuste_max_drawdown_pct": -57.697886731479706,
+    "ajuste_exposicion_media_pct": 14.099946265448684,
+    "ajuste_cambios_exposicion": 729
+  }
+}

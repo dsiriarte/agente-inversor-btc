@@ -1,0 +1,25 @@
+{
+  "experimento": "R3_k002",
+  "semilla": 2026,
+  "pasos": 120000,
+  "segundos": 29.7,
+  "validacion": {
+    "estrategia": "DQN R3_k002 (semilla 2026)",
+    "capital_final": 19216.996067801098,
+    "retorno_pct": 92.16996067801098,
+    "max_drawdown_pct": -17.901368365256655,
+    "costos_usd": 3482.274230389735,
+    "costos_pct_capital_inicial": 34.82274230389735,
+    "cambios_exposicion": 401,
+    "rebalanceos": 477,
+    "exposicion_media_pct": 70.99097162510748,
+    "horas_0_pct": 22.22699914015477,
+    "horas_50_pct": 13.564058469475496,
+    "horas_100_pct": 64.20894239036974,
+    "recompensa_total": 0.09576872513514487,
+    "ajuste_retorno_pct": 1.8676323157057695,
+    "ajuste_max_drawdown_pct": -66.93051859212453,
+    "ajuste_exposicion_media_pct": 70.87049973132724,
+    "ajuste_cambios_exposicion": 1876
+  }
+}

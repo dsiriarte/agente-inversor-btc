@@ -1,0 +1,51 @@
+{
+  "R1_sin_escalar": {
+    "descripcion": "R1 con los indicadores sin escalar (configuración de la primera versión)",
+    "recompensa": {
+      "tipo": "log"
+    },
+    "escalar_estado": false
+  },
+  "R1": {
+    "descripcion": "R1: retorno logarítmico neto de costos, estado escalado con el periodo de ajuste",
+    "recompensa": {
+      "tipo": "log"
+    },
+    "escalar_estado": true
+  },
+  "R2": {
+    "descripcion": "R2: retorno logarítmico menos 0,5 por su cuadrado (castigo por riesgo), estado escalado",
+    "recompensa": {
+      "tipo": "log_riesgo",
+      "lam": 0.5
+    },
+    "escalar_estado": true
+  },
+  "R3_k002": {
+    "descripcion": "R3: R2 más penalización por cambio de exposición, kappa = 0.002",
+    "recompensa": {
+      "tipo": "log_riesgo_rotacion",
+      "lam": 0.5,
+      "kappa": 0.002
+    },
+    "escalar_estado": true
+  },
+  "R3_k005": {
+    "descripcion": "R3: R2 más penalización por cambio de exposición, kappa = 0.005",
+    "recompensa": {
+      "tipo": "log_riesgo_rotacion",
+      "lam": 0.5,
+      "kappa": 0.005
+    },
+    "escalar_estado": true
+  },
+  "R3_k010": {
+    "descripcion": "R3: R2 más penalización por cambio de exposición, kappa = 0.01",
+    "recompensa": {
+      "tipo": "log_riesgo_rotacion",
+      "lam": 0.5,
+      "kappa": 0.01
+    },
+    "escalar_estado": true
+  }
+}

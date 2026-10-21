@@ -1,0 +1,25 @@
+{
+  "experimento": "R1_sin_escalar",
+  "semilla": 2026,
+  "pasos": 120000,
+  "segundos": 24.5,
+  "validacion": {
+    "estrategia": "DQN R1_sin_escalar (semilla 2026)",
+    "capital_final": 41040.91058278305,
+    "retorno_pct": 310.4091058278305,
+    "max_drawdown_pct": -19.898503069223384,
+    "costos_usd": 592.2647714592952,
+    "costos_pct_capital_inicial": 5.9226477145929515,
+    "cambios_exposicion": 28,
+    "rebalanceos": 106,
+    "exposicion_media_pct": 97.69991401547722,
+    "horas_0_pct": 1.053310404127257,
+    "horas_50_pct": 2.493551160791058,
+    "horas_100_pct": 96.45313843508168,
+    "recompensa_total": 1.4119842953119714,
+    "ajuste_retorno_pct": 9.73485211596985,
+    "ajuste_max_drawdown_pct": -64.78116072367794,
+    "ajuste_exposicion_media_pct": 97.07415368081676,
+    "ajuste_cambios_exposicion": 129
+  }
+}

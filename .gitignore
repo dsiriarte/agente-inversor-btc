@@ -1,0 +1,15 @@
+# Entorno
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Se regeneran con python -m src.data
+data/procesados/
+
+# Se regeneran con python -m src.train / src.evaluate (pesados o duplicados)
+modelos/*/semilla_*/puntos_control/
+resultados/validacion/*/semilla_*/historial_ajuste.csv
+resultados/validacion/recorridos/
+resultados/prueba_posterior/recorridos/

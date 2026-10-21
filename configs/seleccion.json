@@ -1,0 +1,42 @@
+{
+  "experimento": "R1_sin_escalar",
+  "descripcion": "R1 con los indicadores sin escalar (configuración de la primera versión)",
+  "semillas": [
+    42,
+    123,
+    456,
+    789,
+    2026
+  ],
+  "semilla_tipica": 123,
+  "regla": [
+    "1. Para cada experimento se toma la mediana de las 5 semillas en validación.",
+    "2. Se descarta el experimento si la mediana de su máximo drawdown es peor que la de comprar y mantener en validación (-19,90 %).",
+    "3. Entre los que quedan gana el de mayor mediana de retorno acumulado en validación.",
+    "4. En la prueba se evalúan las 5 semillas del experimento ganador; el agente que se muestra en las gráficas es la semilla con el retorno de validación igual a la mediana (el agente típico, no el mejor)."
+  ],
+  "drawdown_referencia_validacion_pct": -19.898503069223384,
+  "mediana_validacion": {
+    "retorno_pct": 189.1683,
+    "max_drawdown_pct": -12.2214,
+    "costos_usd": 207.9771,
+    "cambios_exposicion": 11.0,
+    "exposicion_media_pct": 58.104
+  },
+  "fecha_utc": "2026-10-21T03:33:01+00:00",
+  "sha256_modelos": {
+    "42": "ec451f841fa35c869c41a862b3839adb80785dcee6c4d1a25687f6e81d616343",
+    "123": "1acc5c0174b98e93a3ac54d1ddd4f0c7538f57aa3cebfcc9fec3438abc26c68b",
+    "456": "71e5609ae5bfe753da2d4398b332cc79608b7c15c54cfbe78be0d064fe5e05e7",
+    "789": "c379f0e8473c8240b6df1068348fc586fea26d98cce963381222e05eb425bce6",
+    "2026": "21004cf5c9562c6143199e0b71ada65ecfce50996131012e3a5d8c04bf81f5af"
+  },
+  "sha256_pesos": {
+    "42": "daa20b925a937fda4d1d0180ad62c1555baf4cd62c137e25fe8fa4e85cd215e3",
+    "123": "b08dab6d554f01daf9715e471015a662170755a58b6004ef8242ac87a5d1b3dc",
+    "456": "7c24451b05816227135dfedb47060a655bc3652f816c7df6d381a283b0096f43",
+    "789": "c41874f5dc52ffe7b1577f1d284707f44d1cc9ba76bb2ff66a426721b5fa2879",
+    "2026": "8f0b3d177ccd54fc47dec64c5d2dc905725aadc03e1ec5378d1a6986d45e04a1"
+  },
+  "nota_huellas": "sha256_modelos es la huella del .zip completo, registrada al congelar la selección. sha256_pesos (añadida el 21/10/2026, calculada sobre los mismos archivos) cubre solo los pesos: el .zip guarda fechas de ejecución y cambia en cada reentrenamiento aunque los pesos sean idénticos."
+}

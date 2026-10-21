@@ -1,0 +1,25 @@
+{
+  "experimento": "R1",
+  "semilla": 2026,
+  "pasos": 120000,
+  "segundos": 23.0,
+  "validacion": {
+    "estrategia": "DQN R1 (semilla 2026)",
+    "capital_final": 26426.731461102485,
+    "retorno_pct": 164.26731461102486,
+    "max_drawdown_pct": -15.711795666596618,
+    "costos_usd": 4501.164126565236,
+    "costos_pct_capital_inicial": 45.011641265652365,
+    "cambios_exposicion": 527,
+    "rebalanceos": 256,
+    "exposicion_media_pct": 87.60748065348237,
+    "horas_0_pct": 7.115219260533104,
+    "horas_50_pct": 10.554600171969046,
+    "horas_100_pct": 82.33018056749785,
+    "recompensa_total": 0.9717909602146373,
+    "ajuste_retorno_pct": -26.579019409396977,
+    "ajuste_max_drawdown_pct": -67.2924265167834,
+    "ajuste_exposicion_media_pct": 81.82697474476089,
+    "ajuste_cambios_exposicion": 2446
+  }
+}

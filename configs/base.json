@@ -1,0 +1,59 @@
+{
+  "datos": {
+    "archivo": "data/BTC_USD-Hourly.csv",
+    "fuente": "https://raw.githubusercontent.com/ClementPerroud/Gym-Trading-Env/main/examples/data/BTC_USD-Hourly.csv",
+    "sha256": "b5ccfdef2aa852ded1ea03378c1777757d2c27a81d53e0fc81af0011fed9cccf",
+    "ventana": 24,
+    "fraccion_entrenamiento": 0.7,
+    "fraccion_validacion": 0.2
+  },
+  "entorno": {
+    "capital_inicial": 10000.0,
+    "costo_transaccion": 0.001,
+    "fracciones": [
+      0.0,
+      0.5,
+      1.0
+    ]
+  },
+  "agente": {
+    "algoritmo": "DQN (Stable-Baselines3)",
+    "pasos": 120000,
+    "learning_rate": 0.0001,
+    "buffer_size": 50000,
+    "learning_starts": 2000,
+    "batch_size": 64,
+    "gamma": 0.99,
+    "train_freq": 4,
+    "gradient_steps": 1,
+    "target_update_interval": 1000,
+    "exploration_fraction": 0.4,
+    "exploration_initial_eps": 1.0,
+    "exploration_final_eps": 0.05,
+    "net_arch": [
+      64,
+      64
+    ]
+  },
+  "semillas": [
+    42,
+    123,
+    456,
+    789,
+    2026
+  ],
+  "aleatorio": {
+    "semillas": 100,
+    "primera_semilla": 1000
+  },
+  "seleccion": {
+    "declarado": "2026-10-20, antes de entrenar R3 y sin haber evaluado ningún agente DQN en el periodo de prueba",
+    "conjunto": "validacion",
+    "regla": [
+      "1. Para cada experimento se toma la mediana de las 5 semillas en validación.",
+      "2. Se descarta el experimento si la mediana de su máximo drawdown es peor que la de comprar y mantener en validación (-19,90 %).",
+      "3. Entre los que quedan gana el de mayor mediana de retorno acumulado en validación.",
+      "4. En la prueba se evalúan las 5 semillas del experimento ganador; el agente que se muestra en las gráficas es la semilla con el retorno de validación igual a la mediana (el agente típico, no el mejor)."
+    ]
+  }
+}
